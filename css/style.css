@@ -370,6 +370,9 @@ ul a:hover {
     bottom: 10%;
     left: 30%;
   }
+  .pic1 img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1757px) {
