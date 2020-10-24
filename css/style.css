@@ -1,0 +1,399 @@
+@font-face {
+  src: url("font.ttf");
+  font-family: 'font';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'font';
+  background-color: #f2f2f2;
+}
+
+.cleaner {
+  clear: both;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+/* HEADER */
+#bgslika {
+  background-image: url("../img/bgslika1.jpg");
+  min-height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a:hover {
+  text-decoration: none;
+}
+
+#navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#navbar ul a {
+  font-size: 25px;
+}
+
+#logo {
+  height: 50px;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.opacity2 {
+  opacity: 0.9;
+}
+
+#naslov {
+  position: absolute;
+  right: 50px;
+}
+
+/* CONTENT */
+.border-10 {
+  border-left: 4px solid #17a2b8;
+}
+
+.border-10 li p {
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 150px;
+}
+
+/*CONTENT BOTTOM */
+.tekst {
+  font-size: 18px;
+}
+
+.pic1 {
+  text-align: center;
+}
+
+.pic1 img {
+  height: 400px;
+}
+
+/* FOOTER*/
+.futer1 {
+  background-color: #49535c;
+}
+
+.color {
+  color: #c8cccf;
+}
+
+.linkovi:hover {
+  color: #8396a3;
+}
+
+/* KONTAKT STRANICA */
+.kontakt {
+  background-color: #49535c;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.kontakt h1 {
+  margin-top: 25px;
+}
+
+.kontakt #border1 {
+  border-bottom: 7px solid #17a2b8;
+  width: 55px;
+  margin: 10px 0px;
+}
+
+.kontakt .fon {
+  margin-left: 90px;
+}
+
+.kontakt .fon p {
+  color: #c2c2c2;
+}
+
+.kontakt .icon i {
+  font-size: 50px;
+  margin-top: 16px;
+}
+
+.kontakt .icon {
+  float: left;
+}
+
+.floatForma {
+  float: left;
+  font-size: 25px;
+}
+
+#button1 button {
+  background-color: #49535c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.star {
+  color: red;
+}
+
+#lokacija {
+  padding-top: 10px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#lokacija iframe {
+  width: 70%;
+  height: 350px;
+}
+
+.lokk {
+  background-color: #49535c;
+  border-radius: 10px;
+}
+
+/* BRENDOVI STRANICA*/
+#baner {
+  padding-bottom: 50px;
+  background-color: #49535c;
+  border-radius: 10px;
+}
+
+.text3 {
+  padding-top: 50px;
+}
+
+.brendovi img {
+  width: 300px;
+}
+
+.brbr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.slika {
+  position: relative;
+  overflow: hidden;
+}
+
+.slika img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: -webkit-transform 400ms ease-out;
+  transition: -webkit-transform 400ms ease-out;
+  transition: transform 400ms ease-out;
+  transition: transform 400ms ease-out, -webkit-transform 400ms ease-out;
+}
+
+.slika:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(73, 83, 92, 0.6);
+}
+
+.overlay .text4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.slika:hover .overlay {
+  opacity: 1;
+}
+
+.pic2 {
+  position: relative;
+}
+
+.pic2 img {
+  width: 85%;
+}
+
+.katalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.slike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#button2 button {
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  border: none;
+  background-color: rgba(73, 83, 92, 0.7);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#button2 button:hover {
+  background-color: #42576e;
+}
+
+.text6 {
+  font-size: 16px;
+}
+
+.top-margin {
+  margin-top: 100px;
+}
+
+.color1 {
+  background-color: #3e464e;
+}
+
+.new-color {
+  background-color: #49535c;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+  .border-10 {
+    border-right: 4px solid #17a2b8;
+  }
+  .border-11 {
+    border-right: 4px solid #17a2b8;
+    border-left: 4px solid #17a2b8;
+  }
+  .p1 {
+    text-align: center;
+  }
+  #naslov {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pic1 {
+    margin-top: 30px;
+  }
+  .futer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .pic2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .pic2 img {
+    width: 60%;
+  }
+  #button2 button {
+    bottom: 10%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .pic2 img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #button2 button {
+    bottom: 10%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 1757px) {
+  .text6 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1615px) {
+  .slika {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .brbr {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #baner h1 {
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
